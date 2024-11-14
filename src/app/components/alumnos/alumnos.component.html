@@ -1,0 +1,5 @@
+<button (click)="postAlumno()">AÑADIR</button>
+<button (click)="logOut()">LOGOUT</button>
+@for(alumno of alumnos; track alumno) {
+  <h3>{{alumno.nombre}}</h3>
+}
